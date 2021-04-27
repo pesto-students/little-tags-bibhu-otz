@@ -1001,5 +1001,14 @@ a:hover {
     margin-right: 5px;
     display: block; }
   
- 
+    .modal.show  {
+      display:flex!important;
+      flex-direction:column;
+      justify-content:center;
+      align-content:center;
+      align-items: flex-start;
+    }
+
+    
+    
   

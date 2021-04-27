@@ -1,16 +1,11 @@
 import React from 'react';
 import '../css/Home.css';
-import PopularProduct from './product/PopularProduct';
-import NewArrivedProduct from './product/NewArrivedProduct';
-import RecomendedProduct from './product/RecomendedProduct';
-
+import Products from './product/Products';
 
 const ProductList = () =>{
     return(
       <React.Fragment>
-         <PopularProduct/>
-         <NewArrivedProduct/>
-         <RecomendedProduct/>
+         <Products/>
       </React.Fragment>
     );
 }

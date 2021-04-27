@@ -10,49 +10,49 @@ function Footer(){
                     <aside className="col-md">
                         <h6 className="title text-light"><u>Brands</u></h6>
                         <ul className="list-unstyled">
-                            <li> <Link href="#">Adidas</Link></li>
-                            <li> <Link href="#">Puma</Link></li>
-                            <li> <Link href="#">Reebok</Link></li>
-                            <li> <Link href="#">Nike</Link></li>
+                            <li> <Link to="#">Adidas</Link></li>
+                            <li> <Link to="#">Puma</Link></li>
+                            <li> <Link to="#">Reebok</Link></li>
+                            <li> <Link to="#">Nike</Link></li>
                         </ul>
                     </aside>
                     <aside className="col-md">
                         <h6 className="title text-light"><u>Company</u></h6>
                         <ul className="list-unstyled">
-                            <li> <Link href="#">About us</Link></li>
-                            <li> <Link href="#">Career</Link></li>
-                            <li> <Link href="#">Find a store</Link></li>
-                            <li> <Link href="#">Rules and terms</Link></li>
-                            <li> <Link href="#">Sitemap</Link></li>
+                            <li> <Link to="#">About us</Link></li>
+                            <li> <Link to="#">Career</Link></li>
+                            <li> <Link to="#">Find a store</Link></li>
+                            <li> <Link to="#">Rules and terms</Link></li>
+                            <li> <Link to="#">Sitemap</Link></li>
                         </ul>
                     </aside>
                     <aside className="col-md">
                         <h6 className="title text-light"><u>Help</u></h6>
                         <ul className="list-unstyled">
-                            <li> <Link href="#">Contact us</Link></li>
-                            <li> <Link href="#">Money refund</Link></li>
-                            <li> <Link href="#">Order status</Link></li>
-                            <li> <Link href="#">Shipping info</Link></li>
-                            <li> <Link href="#">Open dispute</Link></li>
+                            <li> <Link to="#">Contact us</Link></li>
+                            <li> <Link to="#">Money refund</Link></li>
+                            <li> <Link to="#">Order status</Link></li>
+                            <li> <Link to="#">Shipping info</Link></li>
+                            <li> <Link to="#">Open dispute</Link></li>
                         </ul>
                     </aside>
                     <aside className="col-md">
                         <h6 className="title text-light"><u>Account</u></h6>
                         <ul className="list-unstyled">
-                            <li> <Link href="#"> User Login </Link></li>
-                            <li> <Link href="#"> User register </Link></li>
-                            <li> <Link href="#"> Account Setting </Link></li>
-                            <li> <Link href="#"> My Orders </Link></li>
+                            <li> <Link to="#"> User Login </Link></li>
+                            <li> <Link to="#"> User register </Link></li>
+                            <li> <Link to="#"> Account Setting </Link></li>
+                            <li> <Link to="#"> My Orders </Link></li>
                         </ul>
                     </aside>
                     <aside className="col-md">
                         <h6 className="title text-light"><u>Social</u></h6>
                         
                         <ul className="list-unstyled">
-                            <li><Link href="#"> <i className="fab fa-facebook"></i> Facebook </Link></li>
-                            <li><Link href="#"> <i className="fab fa-twitter"></i> Twitter </Link></li>
-                            <li><Link href="#"> <i className="fab fa-instagram"></i> Instagram </Link></li>
-                            <li><Link href="#"> <i className="fab fa-youtube"></i> Youtube </Link></li>
+                            <li><Link to="#"> <i className="fab fa-facebook"></i> Facebook </Link></li>
+                            <li><Link to="#"> <i className="fab fa-twitter"></i> Twitter </Link></li>
+                            <li><Link to="#"> <i className="fab fa-instagram"></i> Instagram </Link></li>
+                            <li><Link to="#"> <i className="fab fa-youtube"></i> Youtube </Link></li>
                         </ul>
                     </aside>
                 </div> 
@@ -60,7 +60,7 @@ function Footer(){
     
             <section className="footer-bottom border-top row">
                 <div className="col-md-2">
-                    <p className="text-muted"> &copy; 2021 Little Tag Inc. </p>
+                    <p className="text-muted"> &copy;{new Date().getFullYear()} Little Tag Inc. </p>
                 </div>
                 <div className="col-md-8 text-md-center">
                     <span  className="px-2">info@Littletag.com</span>

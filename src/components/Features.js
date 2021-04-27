@@ -2,41 +2,59 @@ import React from 'react';
 
 const Features = () =>{
     return (
-        <section class="section-content padding-y-sm">
-        <div class="container">
-         <article class="card card-body">
-          <div class="row">
-	         <div class="col-md-4">	
-		    <figure>
-			<span class="text-primary"><i class="fa fa-2x fa-truck"></i></span>
-			<figcaption class="pt-3">
-				<h5 class="title">Fast delivery</h5>
-				<p>Dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore </p>
-			</figcaption>
-		   </figure> 
-	   </div>
-	         <div class="col-md-4">
-		<figure>
-			<span class="text-primary"><i class="fa fa-2x fa-landmark"></i></span>	
-			<figcaption class="pt-3">
-				<h5 class="title">Creative Strategy</h5>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				 </p>
-			</figcaption>
-		</figure> 
+        <section className="section-content padding-y-sm">
+        <div className="container">
+         <article className="card card-body">
+		  <div className="row">
+               <div className="col-md-4">	
+		<article className="card card-body">
+			<figure className="itemside">
+				<div className="aside">
+					<span className="icon-sm rounded-circle bg-primary">
+						<i className="fa fa-money-bill-alt white"></i>
+					</span>
+				</div>
+				<figcaption className="info">
+					<h5 className="title">Reasonable prices</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labor </p>
+				</figcaption>
+			</figure> 
+		</article> 
 	</div>
-             <div class="col-md-4">
-		<figure>
-			<span class="text-primary"><i class="fa fa-2x fa-lock"></i></span>
-			<figcaption class="pt-3">
-				<h5 class="title">High secured </h5>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				 </p>
-			</figcaption>
-		</figure> 
-	</div> 
-          </div>
+               <div className="col-md-4">
+		<article className="card card-body">
+			<figure className="itemside">
+				<div className="aside">
+					<span className="icon-sm rounded-circle bg-secondary">
+						<i className="fa fa-comment-dots white"></i>
+					</span>
+				</div>
+				<figcaption className="info">
+					<h5 className="title">Customer support 24/7 </h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labor </p>
+				</figcaption>
+			</figure> 
+		</article> 
+	</div>
+	           <div className="col-md-4">
+		<article className="card card-body">
+			<figure className="itemside">
+				<div className="aside">
+					<span className="icon-sm rounded-circle bg-success">
+						<i className="fa fa-truck white"></i>
+					</span>
+				</div>
+				<figcaption className="info">
+					<h5 className="title">Quick delivery</h5>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labor </p>
+				</figcaption>
+			</figure> 
+		</article> 
+	</div>
+          </div> 
           </article> 
           </div>
         </section>

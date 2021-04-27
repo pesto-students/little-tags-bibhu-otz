@@ -3,7 +3,7 @@ import Loader from '../Loader'
 import ProductCard from './ProductCard'
 import { useAxiosGet } from '../Hooks/HttpRequests'
 
-const PopularProduct = () =>{
+const Products = () =>{
     const url = `https://fakestoreapi.com/products`
     let products = useAxiosGet(url)
     let content = null
@@ -46,4 +46,4 @@ const PopularProduct = () =>{
     );
 }
 
-export default PopularProduct;
+export default Products;

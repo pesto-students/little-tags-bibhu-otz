@@ -22,3 +22,13 @@
     padding-left: 50px;
     margin-top: 0px;
 }
+.img-width{
+    width: auto;
+    height : auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+.user-profile-img {
+    border-radius: 50%;
+    max-width: 100%;
+  }
